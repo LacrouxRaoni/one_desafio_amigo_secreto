@@ -43,7 +43,7 @@ function sortearAmigo()
         secretFriend.innerHTML = friendList.at(number - 1);    
     }
     else
-        return alert("Não existe número suficiente de amigos para ser sorteado")
+        return alert("Não existe número de amigos suficiente para ser sorteado")
 }
 
 let friendList = [];
