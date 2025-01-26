@@ -11,7 +11,7 @@ function showListFriends()
         let query = document.getElementById('listaAmigos');
 
         let li = document.createElement('li');
-        li.textContent = friendList.at(friendList.length);
+        li.textContent = friendList.at(friendList.length - 1);
         query.append(li);
 }
 
