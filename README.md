@@ -34,3 +34,12 @@ Abra o arquivo ```index.html``` em qualquer navegador de sua preferência.
 Adicione os nomes dos participantes e clique em ```Adicionar```.
 
 Quando a lista estiver completa, clique em ```Sortear amigo``` para visualizar o amigo secreto.
+
+## Visualização da Página
+
+![Pagina inicial](imgs/print1.png)
+![Pagina com nomes na lista](imgs/print2.png)
+![Pagina com nome sorteado](imgs/print3.png)
+![Alert ao tentar adicionar com campo em branco](imgs/print4.png)
+![Alert ao tentar sortear com 0 ou 1 nomes da lista](imgs/print5.png)
+

@@ -8,11 +8,11 @@ function cleanField()
 
 function showListFriends()
 {
-    if (friendList.length > 0)
-    {   
         let query = document.getElementById('listaAmigos');
-        query.innerHTML = friendList;
-    }
+
+        let li = document.createElement('li');
+        li.textContent = friendList.at(friendList.length);
+        query.append(li);
 }
 
 function adicionarAmigo()
@@ -29,16 +29,14 @@ function adicionarAmigo()
 
 function getSpecialNumber(len)
 {
-    let n = parseInt((Math.random() * len) + 1)
-    return n;
+    return (parseInt((Math.random() * len) + 1));
 }
 
 function sortearAmigo()
 {
-    let len = friendList.length;
-    if (len > 1)
+    if (friendList.length > 1)
     {
-        let number = getSpecialNumber(len);
+        let number = getSpecialNumber(friendList.length);
         let secretFriend = document.getElementById('resultado')
         secretFriend.innerHTML = friendList.at(number - 1);    
     }
