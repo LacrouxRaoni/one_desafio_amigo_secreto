@@ -25,6 +25,10 @@ Este projeto é um simples site para cadastro de lista de amigos para sortear um
 
 ## Como Usar
 
+Acesse o link https://one-desafio-amigo-secreto-livid.vercel.app/
+
+OU
+
 Clone este repositório:
 
     git clone git@github.com:LacrouxRaoni/one_desafio_amigo_secreto.git
